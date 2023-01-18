@@ -1,4 +1,5 @@
-<# функция разбивает строки на отдельные символы в списке
+'''
+# функция разбивает строки на отдельные символы в списке
 def get_tpl(file_name, sep=','):
     with open(file_name) as f:
         lines = f.readlines()
@@ -39,4 +40,5 @@ dx, dy = len(steps[0]), len(steps)
 find_min_jumps(0,0,0, "")
 FindMaxWay(0,0, lab[0][0], '')
 print("Максимальноая ценая за прохождение {0}, путь {1}".format(price_lst[0], price_lst[1]))
-print ("\nМинимальное кол-во шагов: {0}, Путь: {1}".format(resTwo[0], resTwo[1]))>
+print ("\nМинимальное кол-во шагов: {0}, Путь: {1}".format(resTwo[0], resTwo[1]))
+'''
