@@ -1,4 +1,4 @@
-'''
+
 
 def get_tpl(file_name, sep=','):
     with open(file_name) as f:
@@ -41,4 +41,3 @@ FindMaxWay(0,0, lab[0][0], '')
 print("Максимальноая ценая за прохождение {0}, путь {1}".format(price_lst[0], price_lst[1]))
 print ("\nМинимальное кол-во шагов: {0}, Путь: {1}".format(resTwo[0], resTwo[1]))
 
-'''
